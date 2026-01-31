@@ -1,0 +1,47 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.cache
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Temp files
+*.tmp
+*.log
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Whisper / Audio temp files
+/tmp/
+*.wav
+*.mp3
+*.m4a
+
+# HuggingFace cache
+~/.cache/huggingface/
+~/.cache/torch/
+~/.cache/transformers/
+
+# Node / frontend cache (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# VS Code settings
+.vscode/
+
+# Any other local config
+*.local

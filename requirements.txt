@@ -1,0 +1,6 @@
+gradio
+openai-whisper
+soundfile
+numpy
+torch
+torchaudio
