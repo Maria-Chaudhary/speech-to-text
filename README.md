@@ -25,7 +25,9 @@ You can launch the app locally or deploy on [Hugging Face Spaces](https://huggin
 ```bash
 gradio app.py
 
-**## Installation
+---
+
+## Installation
 
 Follow these steps to set up the Speech-to-Text Transcriber app on your local machine:
 
