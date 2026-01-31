@@ -18,7 +18,7 @@ A stylish and accurate **Speech-to-Text Transcriber** powered by **OpenAI Whispe
 
 Follow these steps to set up the app on your local machine:
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/your-username/speech-to-text.git
 cd speech-to-text
