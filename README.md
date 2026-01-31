@@ -1,35 +1,22 @@
-# 🎤 Speech to Text Transcriber
+# 🎤 Speech-to-Text Transcriber
 
-A **multilingual speech-to-text web application** powered by **OpenAI Whisper**.  
-Upload or record audio in multiple languages, and get accurate transcriptions instantly.  
-
-This app supports **Dark/Light theme toggle** and displays the detected language clearly.
+A stylish and accurate **Speech-to-Text Transcriber** powered by **OpenAI Whisper**, supporting multiple languages including Urdu, Hindi, English, and Japanese. Record audio with your microphone or upload audio files to get accurate transcriptions. Includes a fully functional **Light/Dark theme toggle**.
 
 ---
 
 ## 🌟 Features
 
-- Record audio directly via microphone or upload audio files (`.wav`, `.mp3`, `.m4a`)  
-- Automatic **language detection**  
-- **Multilingual transcription**: Urdu, English, Hindi, Japanese (more supported by Whisper)  
-- **Dark/Light theme toggle**  
-- Real-time transcription status messages  
-- Stylish, responsive UI with clear instructions and info boxes  
+- **Real-time transcription:** Record your voice or upload audio files (.wav, .mp3, .m4a)
+- **Multilingual support:** Urdu, Hindi, English, Japanese, and more
+- **Language detection:** Detects the language of the spoken audio
+- **Light/Dark theme toggle:** User-friendly interface
+- **Stylish and modern UI** using Gradio
 
 ---
 
-## 🖥️ Demo
+## 🛠 Installation
 
-You can launch the app locally or deploy on [Hugging Face Spaces](https://huggingface.co/):
-
-```bash
-gradio app.py
-
----
-
-## Installation
-
-Follow these steps to set up the Speech-to-Text Transcriber app on your local machine:
+Follow these steps to set up the app on your local machine:
 
 ### 1. Clone the repository
 ```bash
@@ -47,7 +34,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 4. Run the app
 python app.py
-5. Access the app
-Open the link shown in the terminal (usually http://127.0.0.1:7860) in your browser.
+5. Open in your browser
+Open the link shown in the terminal (usually http://127.0.0.1:7860) to access the app.
 
-💡 Tip: For best results, use Python 3.10 or above and ensure your microphone works properly.**
+💡 Tip: For best results, use Python 3.10 or above and ensure your microphone works properly.
+
