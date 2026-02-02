@@ -15,36 +15,36 @@ A stylish and accurate **Speech-to-Text Transcriber** powered by **OpenAI Whispe
 ---
 
 ## 🛠 Installation
-Clone the repository
+**1. Clone the repository:**
 
 git clone https://github.com/your-username/speech-to-text.git
 cd speech-to-text
 
 
-Create a virtual environment (recommended)
+**2.Create a virtual environment (recommended):**
 
-Windows:
+**Windows:**
 
 python -m venv venv
 venv\Scripts\activate
 
 
-macOS / Linux:
+**macOS / Linux:**
 
 python3 -m venv venv
 source venv/bin/activate
 
 
-Install dependencies
+**3.Install dependencies:**
 
 pip install -r requirements.txt
 
 
-Run the app
+**4.Run the app:**
 
 python app.py
 
 
-Open in your browser
+**Open in your browser**
 
 Open the link shown in the terminal (usually http://127.0.0.1:8501 for Streamlit apps) to access the app.
