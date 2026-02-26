@@ -17,33 +17,35 @@ A stylish and accurate **Speech-to-Text Transcriber** powered by **OpenAI Whispe
 ## 🛠 Installation
 **1. Clone the repository:**
 
+```bash
 git clone https://github.com/your-username/speech-to-text.git
 cd speech-to-text
+```
 
 
 **2.Create a virtual environment (recommended):**
-
 **Windows:**
 
+```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 
 **macOS / Linux:**
-
+```bash
 python3 -m venv venv
 source venv/bin/activate
 
-
+```
 **3.Install dependencies:**
-
+```bash
 pip install -r requirements.txt
-
+```
 
 **4.Run the app:**
-
+```bash
 python app.py
-
+```
 
 **Open in your browser**
 
